@@ -220,7 +220,7 @@ body {
   }
 }
 .hero-info__link-item:first-child {
-  margin-left: 0;
+  margin-right: 30px;
 }
 .hero-img img {
   width: 600px;
@@ -412,3 +412,215 @@ body {
   opacity: 0.7;
   margin-bottom: 20px;
 }
+
+/*software*/
+/*discover*/
+.discover {
+  padding: 100px 0 0px 0;
+}
+.discover-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+@media (max-width: 992px) {
+  .discover-content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+.discover .discover-info {
+  max-width: 510px;
+  margin-top: 45px;
+}
+@media (max-width: 992px) {
+  .discover .discover-info {
+    max-width: none;
+    margin-top: 0;
+  }
+}
+@media (max-width: 768px) {
+  .discover .discover-info {
+    text-align: center;
+  }
+}
+.discover .discover-info__title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 67px;
+  color: #021206;
+  margin-bottom: 20px;
+}
+.discover .discover-info__sub-title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #021206;
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+.discover .discover-info__list-item {
+  margin-bottom: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media (max-width: 768px) {
+  .discover .discover-info__list-item {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+.discover .discover-info__list-item::before {
+  content: url(../img/check.png);
+  margin-right: 11px;
+}
+.discover .discover-info__list-item__text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 160%;
+  color: #021206;
+  opacity: 0.7;
+}
+.discover .discover-img img {
+  width: 100%;
+}
+
+/*discover*/
+/*serving*/
+.serving-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+@media (max-width: 992px) {
+  .serving-content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+.serving .serving-info {
+  max-width: 550px;
+  margin-top: 80px;
+}
+@media (max-width: 992px) {
+  .serving .serving-info {
+    max-width: none;
+    margin-top: 0;
+  }
+}
+.serving .serving-info__title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 67px;
+  color: #021206;
+  margin-bottom: 20px;
+}
+.serving .serving-info__text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 160%;
+  color: #021206;
+  opacity: 0.7;
+  margin-bottom: 15px;
+}
+.serving .serving-img img {
+  width: 100%;
+}
+
+/*serving*/
+/*get*/
+.get {
+  background: #a7e2ce;
+  padding: 90px 0 0px 0;
+}
+.get-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media (max-width: 992px) {
+  .get-content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+.get .get-info {
+  max-width: 480px;
+  margin-bottom: 20px;
+}
+@media (max-width: 992px) {
+  .get .get-info {
+    max-width: none;
+  }
+}
+.get .get-info__title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 67px;
+  color: #021206;
+  margin-bottom: 20px;
+}
+.get .get-info__text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 160%;
+  color: #021206;
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+.get .get-info__btn {
+  padding: 15px 33px;
+  background: #F44545;
+  border-radius: 6px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 160%;
+  color: #FFFFFF;
+  margin-top: 10px;
+}
+.get .get-img {
+  margin-top: -170px;
+}
+.get .get-img img {
+  width: 100%;
+}
+@media (max-width: 992px) {
+  .get .get-img {
+    margin-top: 0;
+  }
+}
+
+/*get*/
