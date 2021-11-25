@@ -630,7 +630,7 @@ body {
         padding: 22px 29px 22px 29px;
         border: 1px solid rgba(0, 0, 0, 0.1);
         &::before {
-            content: url(/assets/img/check.png);
+            content: url(../img/check.png);
         }
         &__item {
             font-family: Poppins;
