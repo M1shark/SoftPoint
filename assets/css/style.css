@@ -288,6 +288,8 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
   }
 }
 .software .software-card {
@@ -386,6 +388,7 @@ body {
   .software-info {
     margin: 0 auto;
     margin-top: 30px;
+    margin-bottom: 30px;
   }
 }
 @media (max-width: 768px) {
