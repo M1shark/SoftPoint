@@ -528,6 +528,11 @@ body {
     margin-top: 0;
   }
 }
+@media (max-width: 768px) {
+  .serving .serving-info {
+    text-align: center;
+  }
+}
 .serving .serving-info__title {
   font-family: Poppins;
   font-style: normal;
@@ -614,6 +619,14 @@ body {
   color: #FFFFFF;
   margin-top: 10px;
 }
+@media (max-width: 992px) {
+  .get .get-info__btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+  }
+}
 .get .get-img {
   margin-top: -170px;
 }
@@ -627,3 +640,167 @@ body {
 }
 
 /*get*/
+/*plan*/
+.plan {
+  padding: 110px 0 120px 0;
+}
+.plan .plan-header {
+  text-align: center;
+}
+.plan .plan-header__title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 67px;
+  color: #021206;
+  margin-bottom: 20px;
+}
+.plan .plan-header__text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 170%;
+  color: #021206;
+  opacity: 0.7;
+}
+.plan .plan-header__slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 35px;
+  margin-bottom: 40px;
+}
+.plan .plan-header__slide-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 80%;
+  color: #4E5951;
+  margin: 0 15px 0 15px;
+}
+.plan .plan-header__save {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 80%;
+  color: #021206;
+  opacity: 0.7;
+}
+.plan .plan-header__save::after {
+  content: url(/assets/img/price.png);
+  margin-left: 8px;
+}
+.plan .plan-header__price {
+  margin-top: 30px;
+}
+.plan .plan-header__price img {
+  width: 70%;
+}
+.plan .plan-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 30px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.plan .plan-card__body {
+  width: 360px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+.plan .plan-card__body:hover {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 20px 100px rgba(2, 18, 6, 0.15);
+          box-shadow: 0px 20px 100px rgba(2, 18, 6, 0.15);
+  border-radius: 15px;
+}
+.plan .plan-card__body-title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 170%;
+  text-align: center;
+  color: #021206;
+  opacity: 0.5;
+}
+.plan .plan-card__body-price {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 43px;
+  line-height: 100%;
+  text-align: center;
+  color: #021206;
+  margin-top: 35px;
+}
+.plan .plan-card__body-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 22px 29px 22px 29px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.plan .plan-card__body-list::before {
+  content: url(/assets/img/check.png);
+}
+.plan .plan-card__body-list__item {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #021206;
+  opacity: 0.9;
+}
+.plan .plan-card__body-spisok {
+  margin-top: 35px;
+}
+.plan .plan-card__body-list__item-noactive {
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  opacity: 0.5;
+}
+
+/*plan*/
+.footer {
+  background: #8EE6C9;
+  height: 211px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+.footer-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  color: #021206;
+}
