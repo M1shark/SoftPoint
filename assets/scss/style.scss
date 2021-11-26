@@ -12,6 +12,7 @@
 
 body {
     background: #ffffff75;
+    overflow-x: hidden;
 }
 
 
@@ -575,7 +576,7 @@ body {
         color: #021206;
         opacity: 0.7;
         &::after {
-            content: url(/assets/img/price.png);
+            content: url(../img/price.png);
             margin-left: 8px;
         }
     }
