@@ -1,0 +1,53 @@
+.noUi-connect {
+    background: linear-gradient(154.24deg, #85FED6 4.45%, #4EDAAC 83.73%);
+    background-blend-mode: luminosity;
+    mix-blend-mode: normal;
+    box-shadow: 1px 5px 30px rgba(83, 215, 171, 0.5);
+    border-radius: 10px;
+}
+
+.noUi-horizontal {
+    height: 10px;
+    max-width: 1146px;
+}
+
+.noUi-handle {
+    background: linear-gradient(154.24deg, #85FED6 4.45%, #4EDAAC 83.73%);
+    background-blend-mode: luminosity;
+    mix-blend-mode: normal;
+    border: 3px solid #FFFFFF;
+    box-shadow: 1px 5px 30px rgba(83, 215, 171, 0.5);
+    border-radius: 10px;
+}
+
+.noUi-horizontal .noUi-handle {
+    width: 20.92px;
+    height: 20.92px;
+}
+
+.noUi-tooltip {
+    background: #282323;
+    border-radius: 3px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 80%;
+    /* identical to box height, or 14px */
+    color: #FFFFFF;
+    padding: 10px 22px;
+    margin-bottom: 10px;
+    z-index: 2;
+}
+
+.noUi-handle:after {
+    content: url(/wp-content/themes/softpoint/assets/img/polygon.png);
+    position: absolute;
+    top: -16px;
+    left: 0;
+}
+
+.noUi-connects {
+    background: #F7F7F7;
+    border-radius: 37px;
+}
